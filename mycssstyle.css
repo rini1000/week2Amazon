@@ -1,0 +1,55 @@
+/*box1*/
+
+.imagelogo {
+  height: 50px;
+  width: 160px;
+}
+/*******************************************************************/
+.hover-border-primary:hover {
+  border: 1px solid #f4ecec;
+  border-color: #e6eded; /* Bootstrap primary color */
+  background-color: #0b0c0c; /* Optional: black background */
+  transition: border-color 0.3s, background-color 0.3s;
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.topnav input[type="text"] {
+  border: 1px solid #ccc;
+}
+/*********************************/
+.inputmystyle {
+  padding: 0px;
+  margin-top: 7px;
+  height: 50px;
+  width: 400px;
+  border-radius: 5%;
+}
+/******************************************/
+.nav_second {
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.btn {
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 40px;
+  width: 40px;
+  color: rgb(141, 96, 40);
+  background-color: #c8ce88;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

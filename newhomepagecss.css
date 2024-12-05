@@ -1,0 +1,181 @@
+/**********bootstrapstyle************/
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+/*****************header************************
+/*********header logo*****************/
+.logoimage {
+  height: 70px;
+  width: 150px;
+}
+/*****************delivery to thrissur*************************/
+.add_first {
+  color: #cccccc;
+  font-size: 1rem;
+  margin-left: 15px;
+}
+.add_second {
+  color: #ffffff;
+  font-size: 0.875rem;
+  margin-left: 3px;
+}
+/************searchbar**************/
+.nav_search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: burlywood;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+}
+.search_select {
+  background-color: #ffffff;
+  height: 40px;
+  width: 70px;
+  /* text-align: center;*/
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.search_input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+/**************************search icon*************************************/
+.search_icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd69;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: black;
+}
+
+.imagelogo {
+  height: 50px;
+  width: 150px;
+}
+/*******************************************************************************************************/
+.border {
+  border: 1.5px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid white;
+}
+.nav_second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+/**************************cart***********/
+.nav_chart i {
+  font-size: 30px;
+}
+.nav_chart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+/****************************************************************************/
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #0e0e0e;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height: 200px;
+  max-height: 500px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+/*****************************2nd navebar**********************************/
+.secondNaverbar {
+  color: #f2f2f2;
+  background-color: #0e0e0e;
+}
+
+/*********************headingstyal**************************/
+.headingstyal {
+  font-size: larger;
+  font-weight: 800;
+}
+
+/*****************************************************************************************footer*/
+footer {
+  margin-top: 0px;
+  padding: 0px;
+}
+.foot_panel_1 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.foot_panel_1 a {
+  text-decoration: none;
+  background-color: #394655;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.foot_panel_2 {
+  background-color: #222f3d;
+  color: white;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  margin-top: 20px;
+}
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
+  text-decoration: none;
+}
+/*footer2*/
+.foot_panel_3 {
+  background-color: #101113;
+  color: white;
+  border-top: 1px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_3 {
+  background-image: url("/newimage/logoamazon.jpg");
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
+.footerp {
+  color: #dddddd;
+}
